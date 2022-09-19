@@ -1,0 +1,50 @@
+/* /////////GENERAL STYLE/////// */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  line-height: 2.5rem;
+}
+.owner-pic {
+  margin-top: 2rem;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+}
+a:link {
+  text-decoration: underline;
+}
+a:visited {
+  color: blue;
+}
+a:hover,
+a:active {
+  color: aqua;
+}
+
+ion-icon {
+  color: #ffea00;
+}
+.skill-star {
+  display: flex;
+  gap: 1rem;
+}
+
+.skills-grid {
+  display: grid;
+  border: solid 2px black;
+  grid-template-columns: 1fr;
+  border-style: none;
+}
+.main-skills {
+  display: flex;
+}
+.skill-text {
+  padding-left: 1rem;
+}
+.section-area {
+  margin: 1rem 2rem;
+}
